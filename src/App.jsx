@@ -1,7 +1,4 @@
 import { useState } from "react";
-import { disableReactDevTools } from "@fvilers/disable-react-devtools";
-
-if (import.meta.env.NODE_ENV === "production") disableReactDevTools();
 
 function App() {
   const [message, setMessage] = useState("");
