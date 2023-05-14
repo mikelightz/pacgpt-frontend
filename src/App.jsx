@@ -21,7 +21,7 @@ function App() {
 
     // clear the input for user to type another note
     setMessage("");
-    fetch("http://localhost:3000/", {
+    fetch("https://pacgpt.herokuapp.com/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
