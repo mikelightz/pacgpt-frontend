@@ -40,7 +40,7 @@ function App() {
 
   return (
     <main>
-      <h1>Chat AI Tutorial</h1>
+      <h1>PacGPT</h1>
 
       <section>
         {/* display chat history by looping through chats & displaying to user  */}
